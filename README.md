@@ -5,10 +5,6 @@ I've scraped the FAQs of various section from a banking website and saved it in 
 [[question, answer], [question, answer], ...]
 }
 
-Then I merged all this section into one big JSON file with all sections
-
-Later I have transformed this JSON file to CSV and used the section names as class for the questions
-
 Then I preprocess this csv file by stemming and tf-idf vectorizing the questions
 The same process is applied to user's query.
 
